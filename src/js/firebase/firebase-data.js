@@ -159,7 +159,8 @@ function renderByFirebase(data) {
       }
       acc += `<li class="films-list__item" data-id="${id}" firebase-id="${baseId}">
         <a href="#" class="films-list__link">
-          <img
+          <img width="395"
+      height="574"
             src="${poster_path}"
             alt="${title}"
             class="films-list__img"

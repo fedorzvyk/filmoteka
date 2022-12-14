@@ -288,7 +288,8 @@ export function fullFilmInfo(e) {
       <use href="${refs.hrefIcon}"></use>
     </svg>
   </button>
-  <img class="modal__img-wrapper" src="${data.poster_path}" alt="${data.title}">
+  <img width="395"
+      height="574" class="modal__img-wrapper" src="${data.poster_path}" alt="${data.title}">
   <div class="modal__info">
     <p class="modal__title">${data.title}</p>
     <div class="modal__data">
@@ -298,7 +299,8 @@ export function fullFilmInfo(e) {
         <p class="modal__data-info"><span class="modal__data-info--grey">Genre</span><span>${data.genres}</span></p>
     </div>
     <div class="modal__description">
-        <p class="modal__description-title">About<button class="modal__button-play" type="button" data-value="${filmId}"><img class="modal__button-play-wrapper" src="${playBtn}" alt="trailer"></button></p>
+        <p class="modal__description-title">About<button class="modal__button-play" type="button" data-value="${filmId}"><img width="50"
+      height="25" class="modal__button-play-wrapper" src="${playBtn}" alt="trailer"></button></p>
         <p class="modal__description-about">${data.overview}</p>
     </div>
     <div class="modal__buttons" >
